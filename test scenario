@@ -1,0 +1,21 @@
+Test scenario
+1 . save file as . bat extention
+ 
+
+2. After that I have created folder with sample file also in my local as per below ss
+
+ 
+
+
+3. And finally, when executed we can see result as per below snap.
+ 
+Move folder is created and also subfolder with year & month
+
+ 
+ 
+ 
+
+finally all file will get moved from current directory to move folder as per user provided input as month.
+ 
+ 
+
