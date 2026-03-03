@@ -1,0 +1,24 @@
+User Guide: Running the Batch Script for File Archiving
+1. Create the Batch File
+•	Save the code file with a .bat extension (e.g., move_files.bat) into the specified directory where the operation needs to perform.
+2. Prepare the Target Directory (Optional)
+•	Ensure a directory named Moved_data exists in the location where files will be moved.
+•	If it does not exist, the script will automatically create it.
+3. Execute the Script
+•	Open Command Prompt.
+•	Navigate to the directory where the batch file is saved using the cd command.
+•	Run the batch file by typing its name and pressing Enter:
+              move_files.bat
+       OR
+•	Simply double click on the script file.
+4. Provide Input
+•	When prompted, enter the number of months old the files should be to qualify for moving.
+•	Press Enter to continue.
+5. Monitor Progress
+•	The script will display status messages during file movement and compression.
+•	It may pause at certain points for your review before proceeding.
+6. Verify Results
+•	After completion, check the Moved_data directory.
+•	Confirm that:
+o	A subdirectory named with the year and month has been created.
+o	Files have been moved and compressed into a ZIP file as expected.
