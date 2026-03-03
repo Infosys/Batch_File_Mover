@@ -1,0 +1,11 @@
+Use case: 
+
+Ours is a billing application which receives a lot of files (1-2K approx. monthly with cumulative size of 3-5 GB) and are stored on FTP servers, due which we used to face storage issues. So, there is a need to move the old files on monthly basis. As the number of files is high, it consumes a lot of time to do a manual Move. So,the use case for this script is to automate the process of moving files based on their creation date, specifically targeting files created before the end date of the previous month. 
+Get the Current Date: The script retrieves the current date and extracts the year and month.
+1.	User Prompt: The script prompts the user to specify how many months old the data should be to move.
+2.	Date Calculation: It calculates the end date of the previous month based on the current date and the user's input.
+3.	Directory Creation: A new directory is created with a name based on the year and month of the previous month's end date.
+4.	File Movement: Files and directories older than the specified date are moved to the newly created directory.
+This script is useful for archiving old data to free up space in the original directory while keeping the data organized by date. It can be particularly helpful for managing logs, backups, or any other files that accumulate over time.
+
+
