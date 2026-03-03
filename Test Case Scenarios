@@ -1,0 +1,28 @@
+Test Case Scenarios -
+ 
+Monthly Automation Activity: Test Case Scenarios
+Purpose of Automation
+The purpose of this automation is to streamline the process of archiving old files for all customers at the start of every month. This ensures data is organized systematically under respective customer directories with date and year format, reducing manual effort and errors.
+ 
+Need for Automation
+Manual archiving of files is time-consuming and prone to human error. With increasing data volume, it becomes challenging to maintain accuracy and consistency. Automation eliminates these issues by performing the task efficiently and reliably.
+ 
+Use of PowerShell Script
+A PowerShell script has been developed to automate the movement of files based on specified criteria (e.g., up to which date files need to be moved). The script creates a new folder under the respective customer directory with the appropriate date and year format and moves all relevant files into that folder.
+ 
+Test Case Scenarios
+Test Case	Steps	Expected Result
+Verify folder creation	Run the script for a customer directory.	A new folder with date and year format is created under the customer directory.
+Verify file movement	Run the script with criteria for date range.	All files up to the specified date are moved to the new folder.
+Verify no extra files moved	Check files outside the date range.	Files outside the specified date range remain in the original location.
+Verify script handles empty directories	Run the script on an empty customer directory.	Script completes without errors.
+ 
+ 
+ 
+ 
+Benefits
+•	Saves time and reduces manual effort
+•	Ensures accuracy and consistency in file archiving
+•	Scalable solution for growing data volumes
+ 
+
