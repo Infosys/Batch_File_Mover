@@ -1,0 +1,7 @@
+The purpose of this batch script is to automate the archiving of files based on their age, specifically targeting files older than a specified number of months. Here are the key benefits:
+1.	Efficient Space Management: By moving older files to a separate directory, the script helps free up space in the original directory, ensuring efficient use of storage.
+2.	Improved Organization: The script organizes archived files into directories named by the year and month, making it easier to manage and locate historical data.
+3.	Time-Saving Automation: Automating the file movement process saves time and reduces the risk of human error compared to manually moving files.
+4.	Data Retention Compliance: Regularly archiving old data helps maintain a clean and organized file system, which is useful for adhering to data retention policies.
+Overall, this script is a practical tool for maintaining an organized and efficient file system, especially in environments where large amounts of data are generated regularly.
+
